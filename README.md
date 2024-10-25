@@ -71,11 +71,11 @@
 
 -   **Impact**:
 
-    -   Rows affected: 'year' : 60211 (greater than 2024),
+    -   Rows affected: 'year' : 60211 rows (greater than 2024),
 
-        'gender': 6286 (equal to 3),
+        'gender': 6286 rows (equal to 3),
 
-        'income_group': 5959 (contain a typo).
+        'income_group': 5959 rows contain a typo).
 
     -   Data distribution change: Slight shifts in the distribution of gender, year, and income groups due to the corrections.
 
@@ -96,7 +96,7 @@
 
 -   **Impact**:
 
-    -   Rows affected: 5513
+    -   Rows affected: 5513 rows
 
     -   Data distribution change: Slight reduction in row count, but no significant changes in distribution.
 
@@ -123,15 +123,15 @@
 
 -   **Impact**:
 
-    -   Rows affected: 'income_groups': 6064 missing values,
+    -   Rows affected: 'income_groups': 6064 rows with missing values,
 
-        'age': 5906 missing values,
+        'age': 5906 rows with missing values,
 
-        'gender': 0 missing values,
+        'gender': 0 rows with missing values,
 
-        'year' : 5999 missing values,
+        'year' : 5999 rows with missing values,
 
-        'population': 4048 missing values.
+        'population': 4048 rows with missing values.
 
     -   Data distribution change: Minor changes in median and mode due to filling missing values.
 
@@ -163,7 +163,7 @@
 
 -   **Impact**:
 
-    -   Rows affected: 'year': 4612 outliers, 'population': 2898 outliers
+    -   Rows affected: 'year': 4612 rows with outliers, 'population': 2898 rows with outliers
 
     -   Data distribution change: Removal of extreme values leads to a more representative dataset.
 
@@ -214,6 +214,6 @@
     4.  Removed 4612 outliers from 'year' and 2898 outliers from 'population'.
     5.  Converted 'income_groups' and 'gender' columns to categorical data types.
 -   **Significant changes in data distribution**:
-    1.  **Reduction in the range of values for 'year' and 'population' due to the removal of outliers**.
-    2.  **Minor shifts in the median of 'age' and 'population' due to handling missing values**.
-    3.  **Improved data consistency and accuracy, particularly in 'income_groups' and 'gender' after error correction**.
+    1.  Reduction in the range of values for 'year' and 'population' due to the removal of outliers.
+    2.  Minor shifts in the median of 'age' and 'population' due to handling missing values.
+    3.  Improved data consistency and accuracy, particularly in 'income_groups' and 'gender' after error correction.
